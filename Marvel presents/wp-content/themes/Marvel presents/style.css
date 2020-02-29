@@ -1,0 +1,342 @@
+/*
+Theme Name: MARVEL PRESENTS
+Author: TIGRAN BADALYAN
+Description: This is my final working in web programming 3
+Version: pre-release 
+*/
+
+
+
+body{
+	background-image: url("thor-artwork.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+p{ited {
+	color: #006ec3; 
+	line-height: 1.65em;
+}
+
+a:link, a:vis
+}
+
+.site-header{
+	border-bottom: 1px solid #999;
+}
+
+.site-footer{
+	border-top: 1px solid #999;
+	margin-top: 30px;
+}
+/* General Layout*/
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post{
+	border-bottom: 1px dotted #ddd;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+/* General Layout*/
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post{
+	border-bottom: 1px dotted #ddd;
+}
+
+article.post:last-of-type{
+	border-bottom: none;
+}
+
+
+/*Footer menu*/
+.site-footer nav ul li{
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.about_w{
+	border: 4px dotted orange;
+}
+
+.gyumri{
+	border: 4px solid red;
+	width: 50%;
+}
+
+
+
+/* Post style */
+.post h2{
+	margin-bottom: 0;
+}
+
+p.post-info{
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited{
+	color: #999;
+}
+
+.post-thumbnail{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.has-thumbnail{
+	position: relative;
+	padding-left: 200px;
+}
+
+/* Search */
+div.hd-search{
+	float: right;
+	margin-top:5px;
+	font-size:23px;
+}
+
+div.hd-search #searchsubmit{
+	background-color: #006ec3;
+	color: #FFF;
+	padding: 5px 14px;
+	border: none;
+	vertical-align: top;
+	cursor: pointer;
+	font-size:23px;
+}
+
+div.hd-search #s{
+	vertical-align: top;
+	padding: 3px 0;
+	font-size:23px;
+}
+
+/* Aside Style*/
+article.post-aside{
+	font-size: 125%;
+	background-color: #FFF5CB;
+	padding: 20px 20px 0 20px;
+	margin-top: 15px; 
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .1)
+}
+
+.mini-meta{
+	font-size: 68%;
+	margin: 0;
+	color: #777;
+}
+
+/* Post Format Gallery Style*/
+article.post-gallery {
+	background-color: #222;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+article.post-gallery h2 {
+	text-align: center;
+}
+
+article.post-gallery img {
+	border: none;
+}
+
+/* Main column*/
+.main-column {
+	
+	width:66%;
+	float: left;
+/*	background:#167ac6;
+	margin-left:300px;*/
+}
+
+/* Sidebar column*/
+.sidebar-column{
+	width: 30%;
+	float: right;
+}
+
+/* Footer Widget Area */
+.footer-widget-area{
+	width: 25%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.ecwid-productBrowser-CategoryPage{
+	background:none !important;
+}
+
+.header-div{
+	width: 1000px;
+	height: 280px;
+	background-image: url("logo4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+}
+
+.title a{
+	color:rgb(69, 229, 216);
+	text-decoration: none;
+	font-size:50px;
+}
+
+.muraba{
+	margin-left:-330px;
+	margin-top:20px;
+}
+.arpw-title{
+	margin-left:22px;
+	color:red;
+}
+
+/*.HeaderPost
+{
+	width: 100%;
+}*/
+
+.RandomPost{
+	width: 480px;
+	height: 240px;
+	float:left;
+	border-color:rgb(69, 229, 216);
+}
+.RandomPost2{
+	width: 480px;
+	height: 400px;
+	display:inline-block;
+	float:right;
+	border-color:rgb(69, 229, 216);
+}
+
+
+			  /*menu*/
+
+.site-nav{
+ margin-top: 432px;
+ width: 100%;
+}
+.site-nav ul{
+ display: flex;
+ padding: 0;
+ justify-content: center;
+}
+li.menu-item{
+ list-style: none;
+ padding: 3px;
+/* margin-bottom:none none;
+border-color: rgb(69, 229, 216);*/
+
+}
+li.menu-item a{
+ text-decoration: none;
+ font-size: 40px;
+ color: white;
+ position: relative;
+ padding: 5px;
+}
+li.menu-item a i{
+ margin-right: 10px;
+}
+li.menu-item a::before{
+ content: '';
+ width: 0;
+ height: 3px;
+ background-color: blue;
+ position: absolute;
+ top: 90%;
+ left: 0;
+ transition: .5s;
+ mix-blend-mode: multiply;
+}
+li.menu-item a::after{
+ content: '';
+ width: 0;
+ height: 3px;
+ background-color: #ff2117;
+ position: absolute;
+ top: 90%;
+ right: 0;
+ transition: .5s;
+ mix-blend-mode: multiply;
+}
+li.menu-item:hover{
+ background-color: #e5eae8;
+}
+li.menu-item:hover a::before{
+ width: 50%;
+ transform: translateX(100%);
+}
+li.menu-item:hover a::after{
+ width: 50%;
+ transform: translateX(-100%);
+}
+li.menu-item a:hover{
+ color: #e62117;
+}
+
+.ecwidlatestproducts
+{
+	
+	margin-top: 20px;
+}
+
+.ecwid-productBrowser
+{
+	background: none !important;
+}
+
+.widgettitle
+{
+	display:none;
+}
+
+.form-control__button{
+	background-color:rgb(69, 229, 216)  !important;
+}
+
+.wp-block-embed-youtube {
+	margin-left:0px;
+}
+
+p{
+	color:#eeee;
+}
+
+
+a{
+	color:red;
+}
+
+.ecwid-productsList-name{
+	color:blue !important;
+}

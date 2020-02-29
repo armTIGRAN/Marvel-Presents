@@ -1,0 +1,6 @@
+>Project name: Marvel presents 
+>Description: Model of an online chess store
+>Data: January 2019
+>Version: V1.0.0
+>Project meaning: learn how to work with wordpress,create new theme, practice php, html, css
+>Additionally: done on courses "Web programming 3" in TUMO
